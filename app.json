@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "SmartMobile",
+    "slug": "SmartMobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/dark/icon.png",
+    "splash": {
+      "image": "./assets/dark/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#212529"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/dark/adaptive-icon.png",
+        "backgroundColor": "#212529"
+      },
+      "package": "com.smart_mob",
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "web": {
+      "favicon": "./assets/dark/favicon.png"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "27f53420-7b9b-4e85-a4da-6a8774866b66"
+      }
+    }
+  }
+}

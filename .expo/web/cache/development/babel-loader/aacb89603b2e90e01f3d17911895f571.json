@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Zocial from \"./build/Zocial\";\nexport default Zocial;","map":{"version":3,"names":["Zocial"],"sources":["C:/React N/SmartMobile/node_modules/@expo/vector-icons/Zocial.js"],"sourcesContent":["import Zocial from './build/Zocial';\nexport default Zocial;\n"],"mappings":"AAAA,OAAOA,MAAP;AACA,eAAeA,MAAf"},"metadata":{},"sourceType":"module"}

@@ -1,0 +1,805 @@
+{
+  "version": 2,
+  "tree": {
+    "name": "root",
+    "children": [
+      {
+        "name": "index.production.js",
+        "children": [
+          {
+            "name": "packages/query-core/src",
+            "children": [
+              {
+                "uid": "f80b-42",
+                "name": "subscribable.ts"
+              },
+              {
+                "uid": "f80b-44",
+                "name": "utils.ts"
+              },
+              {
+                "uid": "f80b-46",
+                "name": "focusManager.ts"
+              },
+              {
+                "uid": "f80b-48",
+                "name": "onlineManager.ts"
+              },
+              {
+                "uid": "f80b-50",
+                "name": "retryer.ts"
+              },
+              {
+                "uid": "f80b-52",
+                "name": "logger.ts"
+              },
+              {
+                "uid": "f80b-54",
+                "name": "notifyManager.ts"
+              },
+              {
+                "uid": "f80b-56",
+                "name": "removable.ts"
+              },
+              {
+                "uid": "f80b-58",
+                "name": "query.ts"
+              },
+              {
+                "uid": "f80b-60",
+                "name": "queryCache.ts"
+              },
+              {
+                "uid": "f80b-62",
+                "name": "mutation.ts"
+              },
+              {
+                "uid": "f80b-64",
+                "name": "mutationCache.ts"
+              },
+              {
+                "uid": "f80b-66",
+                "name": "infiniteQueryBehavior.ts"
+              },
+              {
+                "uid": "f80b-68",
+                "name": "queryClient.ts"
+              },
+              {
+                "uid": "f80b-70",
+                "name": "queryObserver.ts"
+              },
+              {
+                "uid": "f80b-72",
+                "name": "queriesObserver.ts"
+              },
+              {
+                "uid": "f80b-74",
+                "name": "infiniteQueryObserver.ts"
+              },
+              {
+                "uid": "f80b-76",
+                "name": "mutationObserver.ts"
+              },
+              {
+                "uid": "f80b-78",
+                "name": "hydration.ts"
+              },
+              {
+                "uid": "f80b-80",
+                "name": "index.ts"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "isRoot": true
+  },
+  "nodeParts": {
+    "f80b-42": {
+      "renderedLength": 505,
+      "gzipLength": 212,
+      "brotliLength": 0,
+      "mainUid": "f80b-41"
+    },
+    "f80b-44": {
+      "renderedLength": 7458,
+      "gzipLength": 2159,
+      "brotliLength": 0,
+      "mainUid": "f80b-43"
+    },
+    "f80b-46": {
+      "renderedLength": 2058,
+      "gzipLength": 703,
+      "brotliLength": 0,
+      "mainUid": "f80b-45"
+    },
+    "f80b-48": {
+      "renderedLength": 1952,
+      "gzipLength": 627,
+      "brotliLength": 0,
+      "mainUid": "f80b-47"
+    },
+    "f80b-50": {
+      "renderedLength": 4232,
+      "gzipLength": 1198,
+      "brotliLength": 0,
+      "mainUid": "f80b-49"
+    },
+    "f80b-52": {
+      "renderedLength": 32,
+      "gzipLength": 49,
+      "brotliLength": 0,
+      "mainUid": "f80b-51"
+    },
+    "f80b-54": {
+      "renderedLength": 1910,
+      "gzipLength": 628,
+      "brotliLength": 0,
+      "mainUid": "f80b-53"
+    },
+    "f80b-56": {
+      "renderedLength": 681,
+      "gzipLength": 312,
+      "brotliLength": 0,
+      "mainUid": "f80b-55"
+    },
+    "f80b-58": {
+      "renderedLength": 12983,
+      "gzipLength": 3114,
+      "brotliLength": 0,
+      "mainUid": "f80b-57"
+    },
+    "f80b-60": {
+      "renderedLength": 2645,
+      "gzipLength": 753,
+      "brotliLength": 0,
+      "mainUid": "f80b-59"
+    },
+    "f80b-62": {
+      "renderedLength": 7266,
+      "gzipLength": 1603,
+      "brotliLength": 0,
+      "mainUid": "f80b-61"
+    },
+    "f80b-64": {
+      "renderedLength": 1889,
+      "gzipLength": 613,
+      "brotliLength": 0,
+      "mainUid": "f80b-63"
+    },
+    "f80b-66": {
+      "renderedLength": 6170,
+      "gzipLength": 1403,
+      "brotliLength": 0,
+      "mainUid": "f80b-65"
+    },
+    "f80b-68": {
+      "renderedLength": 9592,
+      "gzipLength": 1962,
+      "brotliLength": 0,
+      "mainUid": "f80b-67"
+    },
+    "f80b-70": {
+      "renderedLength": 16370,
+      "gzipLength": 3593,
+      "brotliLength": 0,
+      "mainUid": "f80b-69"
+    },
+    "f80b-72": {
+      "renderedLength": 4906,
+      "gzipLength": 1181,
+      "brotliLength": 0,
+      "mainUid": "f80b-71"
+    },
+    "f80b-74": {
+      "renderedLength": 2330,
+      "gzipLength": 624,
+      "brotliLength": 0,
+      "mainUid": "f80b-73"
+    },
+    "f80b-76": {
+      "renderedLength": 3781,
+      "gzipLength": 941,
+      "brotliLength": 0,
+      "mainUid": "f80b-75"
+    },
+    "f80b-78": {
+      "renderedLength": 3177,
+      "gzipLength": 941,
+      "brotliLength": 0,
+      "mainUid": "f80b-77"
+    },
+    "f80b-80": {
+      "renderedLength": 0,
+      "gzipLength": 0,
+      "brotliLength": 0,
+      "mainUid": "f80b-79"
+    }
+  },
+  "nodeMetas": {
+    "f80b-41": {
+      "id": "/packages/query-core/src/subscribable.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-42"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "f80b-59"
+        },
+        {
+          "uid": "f80b-69"
+        },
+        {
+          "uid": "f80b-71"
+        },
+        {
+          "uid": "f80b-63"
+        },
+        {
+          "uid": "f80b-75"
+        },
+        {
+          "uid": "f80b-45"
+        },
+        {
+          "uid": "f80b-47"
+        }
+      ]
+    },
+    "f80b-43": {
+      "id": "/packages/query-core/src/utils.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-44"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "f80b-79"
+        },
+        {
+          "uid": "f80b-49"
+        },
+        {
+          "uid": "f80b-59"
+        },
+        {
+          "uid": "f80b-67"
+        },
+        {
+          "uid": "f80b-69"
+        },
+        {
+          "uid": "f80b-71"
+        },
+        {
+          "uid": "f80b-63"
+        },
+        {
+          "uid": "f80b-53"
+        },
+        {
+          "uid": "f80b-45"
+        },
+        {
+          "uid": "f80b-47"
+        },
+        {
+          "uid": "f80b-57"
+        },
+        {
+          "uid": "f80b-55"
+        }
+      ]
+    },
+    "f80b-45": {
+      "id": "/packages/query-core/src/focusManager.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-46"
+      },
+      "imported": [
+        {
+          "uid": "f80b-41"
+        },
+        {
+          "uid": "f80b-43"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "f80b-79"
+        },
+        {
+          "uid": "f80b-49"
+        },
+        {
+          "uid": "f80b-67"
+        },
+        {
+          "uid": "f80b-69"
+        }
+      ]
+    },
+    "f80b-47": {
+      "id": "/packages/query-core/src/onlineManager.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-48"
+      },
+      "imported": [
+        {
+          "uid": "f80b-41"
+        },
+        {
+          "uid": "f80b-43"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "f80b-79"
+        },
+        {
+          "uid": "f80b-49"
+        },
+        {
+          "uid": "f80b-67"
+        }
+      ]
+    },
+    "f80b-49": {
+      "id": "/packages/query-core/src/retryer.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-50"
+      },
+      "imported": [
+        {
+          "uid": "f80b-45"
+        },
+        {
+          "uid": "f80b-47"
+        },
+        {
+          "uid": "f80b-43"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "f80b-79"
+        },
+        {
+          "uid": "f80b-69"
+        },
+        {
+          "uid": "f80b-57"
+        },
+        {
+          "uid": "f80b-61"
+        }
+      ]
+    },
+    "f80b-51": {
+      "id": "/packages/query-core/src/logger.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-52"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "f80b-67"
+        },
+        {
+          "uid": "f80b-57"
+        },
+        {
+          "uid": "f80b-61"
+        }
+      ]
+    },
+    "f80b-53": {
+      "id": "/packages/query-core/src/notifyManager.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-54"
+      },
+      "imported": [
+        {
+          "uid": "f80b-43"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "f80b-79"
+        },
+        {
+          "uid": "f80b-59"
+        },
+        {
+          "uid": "f80b-67"
+        },
+        {
+          "uid": "f80b-69"
+        },
+        {
+          "uid": "f80b-71"
+        },
+        {
+          "uid": "f80b-63"
+        },
+        {
+          "uid": "f80b-75"
+        },
+        {
+          "uid": "f80b-57"
+        },
+        {
+          "uid": "f80b-61"
+        }
+      ]
+    },
+    "f80b-55": {
+      "id": "/packages/query-core/src/removable.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-56"
+      },
+      "imported": [
+        {
+          "uid": "f80b-43"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "f80b-57"
+        },
+        {
+          "uid": "f80b-61"
+        }
+      ]
+    },
+    "f80b-57": {
+      "id": "/packages/query-core/src/query.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-58"
+      },
+      "imported": [
+        {
+          "uid": "f80b-43"
+        },
+        {
+          "uid": "f80b-51"
+        },
+        {
+          "uid": "f80b-53"
+        },
+        {
+          "uid": "f80b-49"
+        },
+        {
+          "uid": "f80b-55"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "f80b-59"
+        }
+      ]
+    },
+    "f80b-59": {
+      "id": "/packages/query-core/src/queryCache.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-60"
+      },
+      "imported": [
+        {
+          "uid": "f80b-43"
+        },
+        {
+          "uid": "f80b-57"
+        },
+        {
+          "uid": "f80b-53"
+        },
+        {
+          "uid": "f80b-41"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "f80b-79"
+        },
+        {
+          "uid": "f80b-67"
+        }
+      ]
+    },
+    "f80b-61": {
+      "id": "/packages/query-core/src/mutation.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-62"
+      },
+      "imported": [
+        {
+          "uid": "f80b-51"
+        },
+        {
+          "uid": "f80b-53"
+        },
+        {
+          "uid": "f80b-55"
+        },
+        {
+          "uid": "f80b-49"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "f80b-63"
+        },
+        {
+          "uid": "f80b-75"
+        }
+      ]
+    },
+    "f80b-63": {
+      "id": "/packages/query-core/src/mutationCache.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-64"
+      },
+      "imported": [
+        {
+          "uid": "f80b-53"
+        },
+        {
+          "uid": "f80b-61"
+        },
+        {
+          "uid": "f80b-43"
+        },
+        {
+          "uid": "f80b-41"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "f80b-79"
+        },
+        {
+          "uid": "f80b-67"
+        }
+      ]
+    },
+    "f80b-65": {
+      "id": "/packages/query-core/src/infiniteQueryBehavior.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-66"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "f80b-67"
+        },
+        {
+          "uid": "f80b-73"
+        }
+      ]
+    },
+    "f80b-67": {
+      "id": "/packages/query-core/src/queryClient.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-68"
+      },
+      "imported": [
+        {
+          "uid": "f80b-43"
+        },
+        {
+          "uid": "f80b-59"
+        },
+        {
+          "uid": "f80b-63"
+        },
+        {
+          "uid": "f80b-45"
+        },
+        {
+          "uid": "f80b-47"
+        },
+        {
+          "uid": "f80b-53"
+        },
+        {
+          "uid": "f80b-65"
+        },
+        {
+          "uid": "f80b-51"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "f80b-79"
+        }
+      ]
+    },
+    "f80b-69": {
+      "id": "/packages/query-core/src/queryObserver.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-70"
+      },
+      "imported": [
+        {
+          "uid": "f80b-43"
+        },
+        {
+          "uid": "f80b-53"
+        },
+        {
+          "uid": "f80b-45"
+        },
+        {
+          "uid": "f80b-41"
+        },
+        {
+          "uid": "f80b-49"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "f80b-79"
+        },
+        {
+          "uid": "f80b-71"
+        },
+        {
+          "uid": "f80b-73"
+        }
+      ]
+    },
+    "f80b-71": {
+      "id": "/packages/query-core/src/queriesObserver.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-72"
+      },
+      "imported": [
+        {
+          "uid": "f80b-43"
+        },
+        {
+          "uid": "f80b-53"
+        },
+        {
+          "uid": "f80b-69"
+        },
+        {
+          "uid": "f80b-41"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "f80b-79"
+        }
+      ]
+    },
+    "f80b-73": {
+      "id": "/packages/query-core/src/infiniteQueryObserver.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-74"
+      },
+      "imported": [
+        {
+          "uid": "f80b-69"
+        },
+        {
+          "uid": "f80b-65"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "f80b-79"
+        }
+      ]
+    },
+    "f80b-75": {
+      "id": "/packages/query-core/src/mutationObserver.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-76"
+      },
+      "imported": [
+        {
+          "uid": "f80b-61"
+        },
+        {
+          "uid": "f80b-53"
+        },
+        {
+          "uid": "f80b-41"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "f80b-79"
+        }
+      ]
+    },
+    "f80b-77": {
+      "id": "/packages/query-core/src/hydration.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-78"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "f80b-79"
+        }
+      ]
+    },
+    "f80b-79": {
+      "id": "/packages/query-core/src/index.ts",
+      "moduleParts": {
+        "index.production.js": "f80b-80"
+      },
+      "imported": [
+        {
+          "uid": "f80b-49"
+        },
+        {
+          "uid": "f80b-59"
+        },
+        {
+          "uid": "f80b-67"
+        },
+        {
+          "uid": "f80b-69"
+        },
+        {
+          "uid": "f80b-71"
+        },
+        {
+          "uid": "f80b-73"
+        },
+        {
+          "uid": "f80b-63"
+        },
+        {
+          "uid": "f80b-75"
+        },
+        {
+          "uid": "f80b-53"
+        },
+        {
+          "uid": "f80b-45"
+        },
+        {
+          "uid": "f80b-47"
+        },
+        {
+          "uid": "f80b-43"
+        },
+        {
+          "uid": "f80b-77"
+        },
+        {
+          "uid": "f80b-81"
+        }
+      ],
+      "importedBy": [],
+      "isEntry": true
+    },
+    "f80b-81": {
+      "id": "/packages/query-core/src/types.ts",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "f80b-79"
+        }
+      ]
+    }
+  },
+  "env": {
+    "rollup": "2.76.0"
+  },
+  "options": {
+    "gzip": true,
+    "brotli": false,
+    "sourcemap": false
+  }
+}
