@@ -1,6 +1,6 @@
-# SmartMobile - Loja Virtual
+# SmartMobile - Gestão Smart
 
-Esse é um projeto React Native que tem como objetivo fornecer uma solução para gerenciamento de uma loja virtual. A aplicação conta com as seguintes funcionalidades:
+Esse é um projeto React Native que tem como objetivo fornecer uma solução para gerenciamento de loja/comercío ou qualquer negocío de vendas. A aplicação conta com as seguintes funcionalidades:
 
 - CRUD de Clientes: Possibilidade de cadastrar, visualizar, editar e excluir informações dos clientes cadastrados no sistema.
 
