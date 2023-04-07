@@ -1,6 +1,6 @@
 # SmartMobile - Gestão Smart
 
-Esse é um projeto React Native que tem como objetivo fornecer uma solução para gerenciamento de loja/comercío ou qualquer negocío de vendas. A aplicação conta com as seguintes funcionalidades:
+Esse é um projeto React Native que tem como objetivo fornecer uma solução para gerenciamento de lojas/comércios ou qualquer negócio no formato vendas. A aplicação conta com as seguintes funcionalidades:
 
 - CRUD de Clientes: Possibilidade de cadastrar, visualizar, editar e excluir informações dos clientes cadastrados no sistema.
 
@@ -27,3 +27,5 @@ Projeto em constante atualização e busca de melhorias no código e desempenho.
 Para utilizar esse projeto, é necessário ter o React Native Expo instalado na máquina, configurar o ambiente e instalar as dependências do projeto, além disso, é necessario também utilizar a API desenvolvida em Laravel, disponível em um outro repositorio no meu perfil do Github. A API em Laravel é responsável por fornecer as informações necessárias para o funcionamento do aplicativo, como cadastro de clientes e produtos, controle de estoque e vendas, entre outras funcionalidades. 
 
 Em breve será disponibilizado um vídeo tutorial detalhado apresentando todas as funcionalidades do aplicativo do SmartMobile, mostrando como utilizar o aplicativo e como configurar a API em Laravel. Fique atento às atualizações do repositório no Github para não perder nenhuma novidade!
+
+Link do repositório da api em Laravel: https://github.com/codedbyissa/smartmobile-api
