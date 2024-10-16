@@ -1,7 +1,6 @@
-# SmartMobile - Gestão Smart
+PROJETO EM MANUTENÇÃO: Atualmente, o projeto não está disponível para uso devido à depreciação de algumas bibliotecas. Agradeço pela compreensão e estamos trabalhando para resolver isso em breve.
 
-# PROJETO EM MANUTENÇÃO
-Atualmente, o projeto não está disponível para uso devido à depreciação de algumas bibliotecas. Agradeço pela compreensão e estamos trabalhando para resolver isso em breve.
+# SmartMobile - Gestão Smart
 
 Esse é um projeto React Native que tem como objetivo fornecer uma solução para gerenciamento de lojas/comércios ou qualquer negócio no formato vendas. A aplicação conta com as seguintes funcionalidades:
 
